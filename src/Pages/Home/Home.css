@@ -8,12 +8,16 @@
     font-size: 50px;
     margin-top: 20px !important;
     padding: 40px 0 0 0 !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
 @media only screen and (max-width: 600px) {
   .font_upper {
       font-size: 20px; /* Adjust font size for smaller screens */
+      font-weight: bolder;
   }
 }
 
