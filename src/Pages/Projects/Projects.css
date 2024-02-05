@@ -61,7 +61,7 @@
 }
 
 .skill-card_project:hover {
-    transform: scale(1.01); /* Scale up the card on hover */
+    transform: scale(1.3); /* Scale up the card on hover */
 
   }
 .skill-card_project h3 {
@@ -72,4 +72,6 @@
 
 .skill-card_project p {
   color: #333; /* Set the color for the skill descriptions */
+  font-size: small;
+  font-weight: bold;
 }
