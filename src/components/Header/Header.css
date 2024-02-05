@@ -1,0 +1,30 @@
+
+.header {
+    background-color: #003049 !important; 
+    color: #fdf0d5 !important;
+    text-align: center !important; 
+    
+  }
+
+.font_header{
+    font: 50px Source Code Pro  !important;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+a, a:visited {
+  color: inherit;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fdf0d5;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: rgb(235, 60, 60); /* Brightened color on hover */
+  transition: color 0.3s ease; /* Slower transition duration on hover */
+}

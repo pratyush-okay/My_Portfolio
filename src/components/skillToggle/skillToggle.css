@@ -1,0 +1,72 @@
+/* SkillsToggle.css */
+
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 15px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0; /* Remove right position */
+    left: 0; /* Set left position */
+    bottom: 0;
+    background-color: #003049;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px; 
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+    transform: translateX(0);
+  }
+  
+  input:checked + .slider {
+    background-color: #003049;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* SkillsToggle.css */
+
+  
+  .skills-heading {
+    display: flex;
+    align-items: center;
+    margin: 0 20px; /* Add margin for separation */
+  }
+  
+  h3 {
+    font-weight: bolder;
+    margin: 15px 20px;
+
+  }
+  
+  
+  /* Rest of the switch styles remain the same */
+  

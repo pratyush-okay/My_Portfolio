@@ -1,0 +1,98 @@
+.font_text{
+    font-family: Source Code Pro !important;
+}
+.boxie{
+    margin-top: 10px !important;
+}
+.font_upper{
+    font-size: 50px;
+    margin-top: 20px !important;
+    padding: 40px 0 0 0 !important;
+
+}
+.logo{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+
+.custom-button {
+    background-color: #003049; 
+    color: #fdf0d5; 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 30px;
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.custom-button:hover {
+    background-color: #669bbc; 
+    color: #000000
+  }
+
+.custom-textfield {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px; 
+    font-family: Source Code Pro !important;
+    color: #003049; 
+    resize: none; 
+  }
+  
+  .custom-textfield:active {
+    border-color: #003049 !important; 
+  }
+
+  .font_upper {
+    margin: 40px !important;
+    padding: 20px 0 0 0 !important;
+    white-space: nowrap; 
+    overflow: hidden; 
+    border-right: 2px solid #000;
+  
+ 
+    animation: typewriter 2s steps(30), blinkCursor 1s infinite;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0; 
+    }
+    to {
+      width: 100%; 
+    }
+  }  
+
+  @keyframes blinkCursor {
+    0%, 100% {
+        border-right-color: transparent; 
+    }
+    50% {
+        border-right-color: #000; 
+    }
+  }
+.face {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+.face img {
+    width: 20% !important; /* Adjust the width as needed, for example, 50% of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */    
+  }
+/* YourComponent.css */
+
+
+.linkedIn_2 {
+  display: inline-block; /* Display divs in a line */
+  margin-right: 10px; /* Adjust margin as needed for spacing between divs */
+}
+
+

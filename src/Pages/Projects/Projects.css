@@ -1,0 +1,75 @@
+.font_text{
+    font-family: Source Code Pro !important;
+}
+.boxie{
+    margin-top: 10px !important;
+}
+
+  .aboutme {
+    font-size: 50px;
+    text-align: justify; /* Justify the text */
+    line-height: 1.5; /* Adjust line height for spacing between lines */
+    margin: 20px !important;
+    padding: 20px 0 0 0 !important;
+    white-space: nowrap; 
+    overflow: hidden; 
+    border-right: 2px solid #000;
+  
+ 
+    animation: typewriter 2s steps(30), blinkCursor 1s infinite;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0; 
+    }
+    to {
+      width: 100%; 
+    }
+  }  
+
+  @keyframes blinkCursor {
+    0%, 100% {
+        border-right-color: transparent; 
+    }
+    50% {
+        border-right-color: #000; 
+    }
+  }
+
+  /* AboutPage.css */
+
+.skills-container_project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100%; /* Adjust the maximum width as needed */
+  margin: 10px auto; /* Center the container horizontally */
+}
+
+.skill-card_project {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 30px 0px;
+  border: 1px solid #ddd; /* Add a border for a card-like appearance */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.skill-card_project:hover {
+    transform: scale(1.01); /* Scale up the card on hover */
+
+  }
+.skill-card_project h3 {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #003049; /* Set the color for the skill titles */
+}
+
+.skill-card_project p {
+  color: #333; /* Set the color for the skill descriptions */
+}
