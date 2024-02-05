@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-import { Container, TextField, Button  } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
-import SkillsToggle from '../../components/skillToggle/skillToggle';
+import { Container}from '@mui/material';
+
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import './Projects.css';
 
 
-const Home = () => {
-  const navigate = useNavigate();
-  const [text, setText] = useState(''); 
+const Projects = () => {
 
   return (
     <Container className='font_text'>
@@ -42,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Projects;

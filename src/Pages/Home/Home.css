@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 600px) {
   .font_upper {
-      font-size: 20px; /* Adjust font size for smaller screens */
+      font-size: 17px; /* Adjust font size for smaller screens */
       font-weight: bolder;
   }
 }

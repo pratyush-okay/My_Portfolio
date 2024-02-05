@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Button  } from '@mui/material';
 import { GitHub,LinkedIn } from '@mui/icons-material';
 import myFace from './face.jpg';
