@@ -1,18 +1,23 @@
 import React from 'react';
-import { Container, Button  } from '@mui/material';
+import { Container  } from '@mui/material';
 import { GitHub,LinkedIn } from '@mui/icons-material';
 import myFace from './face.jpg';
+import TypewriterEffect from './Typewriter';
+import AnimatedProfileImage from './Animatedprofile';
 import './Home.css';
 
 const Home = () => {
+
   return (
     <Container className='font_text'>
-      <div>
-        <h3 className='font_upper'>Hello, I'm PRATYUSH PANDA</h3>
+      <div className='font_upper_2' >
+        <TypewriterEffect />
+        {/* <h3 className='font_upper'>Hello, I'm PRATYUSH PANDA</h3> */}
       </div>
       <div className="face">
         {/* Your image goes here */}
-        <img src={myFace} alt="My face" />
+        {/* <img src={myFace} alt="My face" /> */}
+        <AnimatedProfileImage imageSrc={myFace} />
       </div>
       <div>
         <h3>A web developer exploring the realms of AI, fueled by newfound passion and curiosity.</h3>
